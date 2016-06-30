@@ -6,6 +6,6 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 router.get('/wanger',function(req,res,next) {
-    res.send('你好');
+    res.send('我不好');
 })
 module.exports = router;
